@@ -8,16 +8,16 @@
                 <nav class="nav-menu-items" @click.prevent="$router.push('/')">
                     Home
                 </nav>
-                <nav class="nav-menu-items">
+                <nav class="nav-menu-items" @click.prevent="$route.path != '/' ? $router.push('/#gallery') : scroll('gallery')">
                     Gallery
                 </nav>
-                <nav class="nav-menu-items">
+                <nav class="nav-menu-items" @click.prevent="$route.path != '/' ? $router.push('/#product') : scroll('product')">
                     Products
                 </nav>
-                <nav class="nav-menu-items">
+                <nav class="nav-menu-items" @click.prevent="$route.path != '/' ? $router.push('/#review') : scroll('review')">
                     Review
                 </nav>
-                <nav class="nav-menu-items">
+                <nav class="nav-menu-items" @click.prevent="$route.path != '/' ? $router.push('/#footer') : scroll('footer')">
                     Supports
                 </nav>
                 <nav class="nav-menu-items md:order-first" @click.prevent="search ? search = false : search = true">
@@ -59,6 +59,12 @@ export default {
                 this.$refs.nav_menu.classList.add('md:flex')
                 this.$refs.nav_menu.classList.remove('md:hidden')
             }
+        },
+        scroll(event) {
+            let x = document.getElementById(event)
+
+            x.scrollIntoView()
+            this.onMenu()
         }
     }
 }

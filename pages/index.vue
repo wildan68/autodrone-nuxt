@@ -2,11 +2,11 @@
   <div class="mainapp">
     <Header/>
     <Home/>
-    <Feature/>
+    <Feature id="gallery"/>
     <Benefit/>
-    <Product/>
-    <Testimoni/>
-    <Footer/>
+    <Product id="product"/>
+    <Testimoni id="review"/>
+    <Footer id="footer"/>
   </div>
 </template>
 
