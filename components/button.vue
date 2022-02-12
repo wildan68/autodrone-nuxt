@@ -1,12 +1,18 @@
 <template>
-    <button>
+    <button @click.prevent="$router.push(to)">
         <slot></slot>
     </button>
 </template>
 
 <script>
 export default {
-    name: 'btn_component'
+    name: 'btn_component',
+    props: {
+        to: {
+            type: String,
+            default: '/'
+        }
+    }
 }
 </script>
 
