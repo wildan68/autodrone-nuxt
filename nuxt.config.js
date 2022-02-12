@@ -32,6 +32,12 @@ module.exports = {
     plugins: [
         { src: './plugins/swiper.js', ssr: false }
     ],
+    storybook: {
+        webpackFinal(config, { configDir }) {
+            // manipulate webpack config
+            return config;
+        }
+    },
     build: {
         /*
          ** Run ESLint on save

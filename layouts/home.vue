@@ -3,8 +3,7 @@
         <span class="pt-[60px] font-medium text-[36px]">Representing Drone Light</span>
         <span class="pt-[10px] font-[300] text-[18px] text-gray">Look up the sky and beautiful world with simple navigation<br>
         Just record anmd get a lot memories to share, lighty and fast like a lightning</span>
-        <div class="pt-[30px]"></div>
-        <btn>GET NOW</btn>
+        <btn class="mt-[30px]" to="detail">GET NOW</btn>
     </div>
 </template>
 

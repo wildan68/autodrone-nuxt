@@ -5,7 +5,7 @@
                 <img src="@/assets/img/logo.png"/>
             </div>
             <div class="nav-menu flex md:hidden md:animate-[showMenu_0.5s_ease]" ref="nav_menu">
-                <nav class="nav-menu-items">
+                <nav class="nav-menu-items" @click.prevent="$router.push('/')">
                     Home
                 </nav>
                 <nav class="nav-menu-items">
