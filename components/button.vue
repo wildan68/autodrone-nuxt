@@ -1,6 +1,6 @@
 <template>
     <button @click.prevent="$router.push(to)">
-        <slot></slot>
+        <slot/>
     </button>
 </template>
 

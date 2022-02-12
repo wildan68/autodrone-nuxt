@@ -33,10 +33,7 @@ module.exports = {
         { src: './plugins/swiper.js', ssr: false }
     ],
     storybook: {
-        webpackFinal(config, { configDir }) {
-            // manipulate webpack config
-            return config;
-        }
+
     },
     build: {
         /*

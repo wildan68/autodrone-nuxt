@@ -1,8 +1,9 @@
-import btn_component from '../components/button'
+import btn from '../components/button'
+
 export default {
     title: 'Button',
-    component: btn_component
+    component: btn
 
 }
 
-export const Button = () => '<btn_component>GET NOW</btn_component>'
+export const Button = () => '<btn>GET NOW</btn>'
