@@ -1,0 +1,17 @@
+info @storybook/vue v6.3.13
+info 
+info => Cleaning outputDir: C:\\Users\\outsi\\AppData\\Local\\Temp\\chromatic--12904-98f692U4pbY0
+ERR! Error: No configuration files have been found in your configDir (D:\Vue\autodrone-nuxt\.storybook).
+ERR! Storybook needs either a "main" or "config" file.
+ERR!     at validateConfigurationFiles (D:\Vue\autodrone-nuxt\node_modules\@storybook\core-common\dist\cjs\utils\validate-configuration-files.js:50:11)
+ERR!     at loadCustomPresets (D:\Vue\autodrone-nuxt\node_modules\@storybook\core-common\dist\cjs\utils\load-custom-presets.js:19:62)
+ERR!     at loadAllPresets (D:\Vue\autodrone-nuxt\node_modules\@storybook\core-common\dist\cjs\presets.js:310:105)
+ERR!     at buildStaticStandalone (D:\Vue\autodrone-nuxt\node_modules\@storybook\core-server\dist\cjs\build-static.js:96:48)
+ERR!     at async buildStatic (D:\Vue\autodrone-nuxt\node_modules\@storybook\core-server\dist\cjs\build-static.js:166:5)
+ERR!  Error: No configuration files have been found in your configDir (D:\Vue\autodrone-nuxt\.storybook).
+ERR! Storybook needs either a "main" or "config" file.
+ERR!     at validateConfigurationFiles (D:\Vue\autodrone-nuxt\node_modules\@storybook\core-common\dist\cjs\utils\validate-configuration-files.js:50:11)
+ERR!     at loadCustomPresets (D:\Vue\autodrone-nuxt\node_modules\@storybook\core-common\dist\cjs\utils\load-custom-presets.js:19:62)
+ERR!     at loadAllPresets (D:\Vue\autodrone-nuxt\node_modules\@storybook\core-common\dist\cjs\presets.js:310:105)
+ERR!     at buildStaticStandalone (D:\Vue\autodrone-nuxt\node_modules\@storybook\core-server\dist\cjs\build-static.js:96:48)
+ERR!     at async buildStatic (D:\Vue\autodrone-nuxt\node_modules\@storybook\core-server\dist\cjs\build-static.js:166:5)
