@@ -1,7 +1,7 @@
 <template>
     <div class="testimoni">
         <span class="font-[600] text-[64px] md:text-[36px]">What Our "Pilots<br>Are Saying</span>
-        <Review :items="items"/>
+        <Review :items="items" animation="flip-up"/>
     </div>
 </template>
 

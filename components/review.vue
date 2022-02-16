@@ -1,6 +1,6 @@
 <template>
   <div class="review">
-    <div class="review-items" v-for="(data, i) in items" :key="i" data-aos="flip-up">
+    <div class="review-items" v-for="(data, i) in items" :key="i" :data-aos="animation">
       <span class="text-[16px] font-[300]">
         {{ data.msg }}
       </span>
@@ -20,6 +20,7 @@
         name: 'review_components',
         props: {
             items: Array,
+            animation: String
         }
     }
 </script>

@@ -33,7 +33,9 @@ module.exports = {
         { src: './plugins/swiper.js', ssr: false }
     ],
     storybook: {
-
+        addons: [
+            '@storybook/addon-actions',
+        ],
     },
     build: {
         /*
